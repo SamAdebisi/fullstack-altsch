@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AltSchool Africa - Application Form</title>
+  </head>
+  <body>
+    <!-- Global Navigation -->
+    <header>
+      <nav>
+        <a href="index.html">Home</a> |
+        <a href="form.html">Application Form</a>
+      </nav>
+
+      <h1>Application Form</h1>
+      <p>Fill in your details to create an AltSchool Africa account.</p>
+    </header>
+
+    <main>
+      <form action="#" method="post">
+        <!-- Personal Information -->
+        <fieldset>
+          <legend>Personal Information</legend>
+
+          <p>
+            <label for="firstName">First Name *</label><br />
+            <input
+              type="text"
+              id="firstName"
+              name="firstName"
+              placeholder="Enter first name"
+              required
+            />
+          </p>
+
+          <p>
+            <label for="lastName">Last Name *</label><br />
+            <input
+              type="text"
+              id="lastName"
+              name="lastName"
+              placeholder="Enter last name"
+              required
+            />
+          </p>
+
+          <p>
+            <label for="middleName">Middle Name</label><br />
+            <input
+              type="text"
+              id="middleName"
+              name="middleName"
+              placeholder="Enter middle name"
+            />
+          </p>
+
+          <p>
+            <label for="dob">Date of Birth *</label><br />
+            <input type="date" id="dob" name="dob" required />
+          </p>
+
+          <p>
+            <label for="gender">Gender *</label><br />
+            <select id="gender" name="gender" required>
+              <option value="">Select Gender</option>
+              <option>Male</option>
+              <option>Female</option>
+              <option>Prefer not to say</option>
+            </select>
+          </p>
+        </fieldset>
+
+        <br />
+
+        <fieldset>
+          <legend>Contact Information</legend>
+
+          <p>
+            <label for="email">Email Address *</label><br />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+              required
+            />
+          </p>
+
+          <p>
+            <label for="phone">Phone Number *</label><br />
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="+2348012345678"
+              required
+            />
+          </p>
+
+          <p>
+            <label for="country">Country *</label><br />
+            <select id="country" name="country" required>
+              <option value="">Select Country</option>
+              <option>Nigeria</option>
+              <option>Ghana</option>
+              <option>Kenya</option>
+              <option>South Africa</option>
+              <option>Uganda</option>
+              <option>Finland</option>
+              <option>United Kingdom</option>
+              <option>United States</option>
+            </select>
+          </p>
+        </fieldset>
+
+        <br />
+
+        <fieldset>
+          <legend>Education Information</legend>
+
+          <p>
+            <label for="school">School *</label><br />
+            <select id="school" name="school" required>
+              <option value="">Select School</option>
+              <option>School of Engineering</option>
+              <option>School of Data</option>
+              <option>School of Product</option>
+              <option>School of Business</option>
+              <option>School of Creative Economy</option>
+            </select>
+          </p>
+
+          <p>
+            <label for="track">Learning Track *</label><br />
+            <select id="track" name="track" required>
+              <option value="">Select Track</option>
+              <option>Frontend Engineering</option>
+              <option>Backend Engineering</option>
+              <option>Cloud Engineering</option>
+              <option>Backend Engineering (NodeJS)</option>
+              <option>Cyber Security</option>
+              <option>Data Analysis</option>
+              <option>Data Engineering</option>
+              <option>Data Science</option>
+              <option>Product Design</option>
+              <option>Product Marketing</option>
+              <option>Product Management</option>
+            </select>
+          </p>
+        </fieldset>
+
+        <br />
+
+        <fieldset>
+          <legend>Account Information</legend>
+
+          <p>
+            <label for="password">Password *</label><br />
+            <input type="password" id="password" name="password" required />
+          </p>
+
+          <p>
+            <label for="confirmPassword">Confirm Password *</label><br />
+            <input
+              type="password"
+              id="confirmPassword"
+              name="confirmPassword"
+              required
+            />
+          </p>
+        </fieldset>
+
+        <br />
+
+        <fieldset>
+          <legend>Additional Information</legend>
+
+          <p>
+            <label for="hearAboutUs">How did you hear about us?</label><br />
+            <select id="hearAboutUs" name="hearAboutUs">
+              <option value="">Select One</option>
+              <option>Twitter/X</option>
+              <option>LinkedIn</option>
+              <option>Facebook</option>
+              <option>Instagram</option>
+              <option>YouTube</option>
+              <option>Friend</option>
+              <option>Google Search</option>
+              <option>Advertisement</option>
+              <option>Other</option>
+            </select>
+          </p>
+
+          <p>
+            <label for="referral">Referral Code</label><br />
+            <input
+              type="text"
+              id="referral"
+              name="referral"
+              placeholder="Optional"
+            />
+          </p>
+        </fieldset>
+
+        <br />
+
+        <fieldset>
+          <legend>Terms and Conditions</legend>
+
+          <p>
+            <input type="checkbox" id="terms" required />
+
+            <label for="terms"> I agree to the Terms and Conditions. </label>
+          </p>
+        </fieldset>
+
+        <br />
+
+        <button type="submit">Create Account</button>
+        <button type="reset">Reset</button>
+      </form>
+    </main>
+
+    <hr />
+
+    <footer>
+      <address>
+        Azeez Adebisi<br />
+        Lagos, Nigeria
+      </address>
+
+      <p>&copy; 2026 Azeez Adebisi. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
