@@ -1,1 +1,3 @@
-# Altschoolafrica AI-Powered FullStack Engineering Program
+# Altschoolafrica
+
+## AI-Powered FullStack Engineering Program
