@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="614.1 632 56 56" fill="none"><path d="M632.886 651.068H639.886V658.068H632.886V651.068Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="black" />
+<path d="M643.886 651.068H650.886V658.068H643.886V651.068Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#005AE2" />
+<path d="M643.886 662.068H650.886V669.068H643.886V662.068Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="black" />
+<path d="M632.886 662.068H639.886V669.068H632.886V662.068Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#005AE2" />
+<circle cx="642.1" cy="660" r="28" fill="#3284FF" fill-opacity="0.13" />
+<defs>
+<linearGradient id="paint0_linear_1_172" x1="120.05" y1="348" x2="120.05" y2="396" gradientUnits="userSpaceOnUse">
+<stop stop-color="#112232" />
+<stop offset="1" stop-color="#4D6B88" stop-opacity="0" />
+</linearGradient>
+<clipPath id="clip0_1_172">
+<rect width="1440" height="982" fill="white" />
+</clipPath>
+<clipPath id="clip1_1_172">
+<rect width="24" height="24" fill="white" transform="translate(630.1 364)" />
+</clipPath>
+<clipPath id="clip2_1_172">
+<rect width="24" height="24" fill="white" transform="translate(998.1 648)" />
+</clipPath>
+</defs>
+</svg>
